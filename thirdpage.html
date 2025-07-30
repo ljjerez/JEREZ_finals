@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sleep Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+</head>
+<body class="bg-[#3f549a] min-h-screen flex flex-col justify-between font-sans">
+  <main class="px-6 pt-12">
+    <h1 class="text-white text-center font-semibold text-sm mb-8">SLEEP TRACKER</h1>
+    <div class="flex justify-center gap-4 mb-10">
+      <button
+        aria-label="Alarm"
+        class="flex flex-col items-center justify-center w-16 h-16 border border-white rounded-lg text-white text-xs font-normal"
+      >
+        <i class="fas fa-clock text-lg mb-1"></i>
+        Alarm
+      </button>
+      <button
+        aria-label="Sleep"
+        class="flex flex-col items-center justify-center w-16 h-16 border border-white rounded-lg text-white text-xs font-normal"
+      >
+        <i class="fas fa-moon text-lg mb-1"></i>
+        Sleep
+      </button>
+      <button
+        aria-label="Wake Up"
+        class="flex flex-col items-center justify-center w-16 h-16 border border-white rounded-lg text-white text-xs font-normal"
+      >
+        <i class="fas fa-sun text-lg mb-1"></i>
+        Wake Up
+      </button>
+    </div>
+
+    <h2 class="text-white font-semibold text-sm mb-4">Your alarms</h2>
+
+    <div class="space-y-4">
+      <div class="flex justify-between items-center bg-[#5a6ea9] rounded-lg p-3">
+        <div>
+          <p class="text-white text-xs font-normal mb-1">Wake up for school</p>
+          <p class="text-white font-semibold text-sm leading-none">06:00 AM</p>
+          <p class="text-white text-xs font-normal -mt-1">Monday-Friday</p>
+        </div>
+        <button
+          aria-label="Wake up alarm notification"
+          class="bg-[#8a9acb] rounded-r-lg p-3 flex items-center justify-center"
+        >
+          <i class="fas fa-bell text-white text-lg"></i>
+        </button>
+      </div>
+
+      <div class="flex justify-between items-center bg-[#5a6ea9] rounded-lg p-3">
+        <div>
+          <p class="text-white text-xs font-normal mb-1">Sleep time</p>
+          <p class="text-white font-semibold text-sm leading-none">10:00 PM</p>
+          <p class="text-white text-xs font-normal -mt-1">Monday-Friday</p>
+        </div>
+        <button
+          aria-label="Sleep time alarm notification"
+          class="bg-[#8a9acb] rounded-r-lg p-3 flex items-center justify-center"
+        >
+          <i class="fas fa-bell text-white text-lg"></i>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <nav class="bg-[#f3e9e6] flex justify-around items-center h-14 text-xs font-normal">
+    <button class="flex flex-col items-center text-black">
+      <i class="fas fa-home text-lg"></i>
+      Home
+    </button>
+    <button class="flex flex-col items-center text-black">
+      <i class="fas fa-sun text-lg"></i>
+      Routine
+    </button>
+    <a href="thirdpage.html" class="flex flex-col items-center text-[#3f549a]">
+      <i class="fas fa-clock text-lg"></i>
+      Tracker
+    </a>
+  </nav>
+</body>
+</html>

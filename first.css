@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1E1E78; /* Dark blue background */
+    color: white;
+    text-align: center;
+}
+       
+.logo {
+    margin-left: 180px ;
+}
+
+.logoimg {
+    width: 30rem; /* Adjust the size of the logo */
+    height: 20rem;
+}
+  
+.description {
+    font-size: 16px; /* Font size for description */
+    margin-bottom: 20px;
+}
+.button {
+    margin-top: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #384770; /* Green color for the button */
+    border: 2px solid rgb(2, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button:hover {
+    background-color: #384770; /* Darker green on hover */
+}
+.button a {
+    color: white;
+    text-decoration: none; /* Optional: removes underline */
+}
